@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpx
+Description: A library for reading Paradox files
+Version: 0.6.9
+Requires:
+Libs: -L${libdir} -lpx -L/usr 
+Cflags: 
+

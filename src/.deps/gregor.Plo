@@ -1,0 +1,2 @@
+gregor.lo: gregor.c sdncal.h
+sdncal.h:
